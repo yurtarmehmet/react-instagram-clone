@@ -2,7 +2,7 @@
 
 Discord toplulugumuzda yaptigimiz React Instagram Clone uygulamasinin reposu.
 
-Her haftaki session ile ilgili koda branches altindan ulasabilirsiniz.
+Her haftaki session ile ilgili koda branchler altindan ulasabilirsiniz.
 
 ## Discord
 
