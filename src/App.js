@@ -5,7 +5,13 @@ import Button from './components/Button/Button';
 function App() {
   return (
     <div className="App">
-      <Button variation="primary" />
+      <Button
+        variation="primary"
+        size="md"
+        onClick={() => {
+          console.log('Buton Tiklandi');
+        }}
+      />
       <Button variation="secondary" />
     </div>
   );
