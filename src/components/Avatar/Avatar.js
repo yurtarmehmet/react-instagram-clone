@@ -10,6 +10,7 @@ const Avatar = (props) => {
       className={cn(styles.avatarContainer, {
         [styles.smAvatar]: size === 'sm',
         [styles.mdAvatar]: size === 'md',
+        [styles.lgAvatar]: size === 'lg',
       })}
       {...args}
     >
@@ -20,7 +21,7 @@ const Avatar = (props) => {
 
 Avatar.propTypes = {
   src: PropTypes.string,
-  size: PropTypes.oneOf(['sm', 'md']),
+  size: PropTypes.oneOf(['sm', 'md', 'lg']),
   alt: PropTypes.string,
 };
 

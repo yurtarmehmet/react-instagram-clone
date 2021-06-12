@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Avatar from './Avatar';
-import Button from '../Button/Button';
 
 export const Small = (args) => <Avatar {...args} />;
 Small.args = {
@@ -11,6 +10,11 @@ Small.args = {
 export const Medium = (args) => <Avatar {...args} />;
 Medium.args = {
   size: 'md',
+};
+
+export const Large = (args) => <Avatar {...args} />;
+Large.args = {
+  size: 'lg',
 };
 
 export default {

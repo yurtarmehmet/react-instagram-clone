@@ -1,0 +1,15 @@
+@import '../styles/variables';
+
+.statContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.count {
+  font-weight: $font-weight-bold;
+  font-size: 1.3rem;
+}
+
+.label {
+  color: $lighterGrey;
+}
