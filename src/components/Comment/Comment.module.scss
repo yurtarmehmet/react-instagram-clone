@@ -1,0 +1,14 @@
+@import '../styles/variables';
+
+.commentContainer {
+  display: flex;
+}
+
+.name {
+  font-weight: $font-weight-bold;
+}
+
+.comment {
+    color: $mako;
+  padding-left: 10px;
+}
