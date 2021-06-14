@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Stat from './Stat';
+import { default as StatComponent } from './Stat';
 
-export const StatExample = (args) => <Stat {...args} />;
-StatExample.args = {
+export const Stat = (args) => <StatComponent {...args} />;
+Stat.args = {
   count: 972,
   label: 'posts',
 };
 
 export default {
-  title: 'components/Stat',
-  component: Stat,
+  title: 'components',
+  component: StatComponent,
 };
