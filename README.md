@@ -1,4 +1,4 @@
-# React ile instagram clone uygulamasi
+# React ile Instagram Clone uygulamasi
 
 Discord toplulugumuzda yaptigimiz React Instagram Clone uygulamasinin reposu.
 
@@ -9,5 +9,6 @@ Her haftaki session ile ilgili koda branchler altindan ulasabilirsiniz.
 https://discord.gg/HwdHYnkedq
 
 ## Youtube
-Part 1: https://www.youtube.com/watch?v=_Lt0RwaT9t0
+Part 1: [Konfigürasyon](https://www.youtube.com/watch?v=_Lt0RwaT9t0)
+Part 2: [UI Components](https://www.youtube.com/watch?v=9HCHYzmFkmg)
 
