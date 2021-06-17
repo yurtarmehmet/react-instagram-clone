@@ -9,6 +9,6 @@ Her haftaki session ile ilgili koda branchler altindan ulasabilirsiniz.
 https://discord.gg/HwdHYnkedq
 
 ## Youtube
-Part 1: [Konfigürasyon](https://www.youtube.com/watch?v=_Lt0RwaT9t0)<br/>
-Part 2: [UI Components](https://www.youtube.com/watch?v=9HCHYzmFkmg)
+- Part 1: [Konfigürasyon](https://www.youtube.com/watch?v=_Lt0RwaT9t0)
+- Part 2: [UI Components](https://www.youtube.com/watch?v=9HCHYzmFkmg)
 
