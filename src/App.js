@@ -1,18 +1,32 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Button from './components/Button/Button';
+import Login from './Pages/Login';
+import Register from './Pages/Register';
+import Profile from './Pages/Profile';
+import Discover from './Pages/Discover';
 
 function App() {
   return (
     <div className="App">
-      <Button
-        variation="primary"
-        size="md"
-        onClick={() => {
-          console.log('Buton Tiklandi');
-        }}
-      />
-      <Button variation="secondary" />
+      <BrowserRouter>
+        <Switch>
+          <Route path="/login">
+            <Login />
+          </Route>
+          <Route path="/register">
+            <Register />
+          </Route>
+          <Route path="/profile">
+            <Profile />
+          </Route>
+          <Route path="/discover">
+            <Discover />
+          </Route>
+          <Route path="/post">
+            <Discover />
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

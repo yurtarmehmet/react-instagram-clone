@@ -1,0 +1,16 @@
+@import "./src/components/styles/_mixins";
+
+.postsGrid {
+  div {
+    margin-bottom: 15px;
+  }
+
+  @include breakpoint(){
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    div {
+      margin: 0;
+    }
+  }
+}

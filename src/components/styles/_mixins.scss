@@ -1,0 +1,8 @@
+@import "./_variables";
+
+@mixin breakpoint() {
+  $breakpoint-value: $breakpoint-lg;
+  @media (min-width: ($breakpoint-value - 1)) {
+    @content;
+  }
+}
